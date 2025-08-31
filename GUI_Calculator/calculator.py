@@ -60,7 +60,7 @@ def tema_degistir():
     
     if koyu_tema:
         bg_renk = "gray"
-        fg_renk = "white"
+        fg_renk = "black"
         buton_renk = "dimgray"
         entry_bg = "lightgray"
     else:
@@ -82,7 +82,7 @@ def tema_degistir():
 
 # Ana pencere
 pencere = tk.Tk()
-pencere.title("Python Calculator GUI")
+pencere.title("Python Hesap Makine Projesi")
 pencere.geometry("800x400")
 koyu_tema = True
 
